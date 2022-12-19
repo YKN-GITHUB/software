@@ -1,6 +1,6 @@
 # Install nginx
 
-
+[nginx](http://nginx.org/)
 
 ## Install nginx for ubuntu
 
