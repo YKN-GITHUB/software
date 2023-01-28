@@ -60,6 +60,12 @@ cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys
 rpm -i jdk-8u181-linux-x64.rpm
 
 # 有一些软件只认： /usr/java/default
+cd /usr/java
+
+lrwxrwxrwx. default -> /usr/java/latest
+drwxr-xr-x. jdk1.8.0_181-amd64
+lrwxrwxrwx. latest -> /usr/java/jdk1.8.0_181-amd64
+
 
 # 设置JAVA_HOME
 vim /etc/profile
